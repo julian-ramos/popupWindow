@@ -1,0 +1,43 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:id="@+id/plusbutton"
+        android:layout_alignTop="@+id/editText"
+        android:layout_toLeftOf="@+id/editText"
+        android:layout_toStartOf="@+id/editText" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginTop="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="-"
+        android:id="@+id/minusbutton"
+        android:layout_alignTop="@+id/editText"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/submitbutton"
+        android:layout_below="@+id/plusbutton"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
